@@ -19,3 +19,13 @@ This folder contains sample scripts that
   - Dockerfile -> has commands to be executed once docker is created
     - in this case files will be copied from source to destination
   - For more details go to folder and refer README.md
+
+## 2-multiple-web-servers 
+This folder contains sample scripts that
+  - create docker image from httpd with version 2.4
+  - Configure multiple virtual hosts
+    - You need to add those names to local hosts file to test on local system (C:\Windows\System32\drivers\etc\hosts)
+    - copy config for httpd vhosts
+    - copy different folders for different hosts
+  - Different folder contents delivered for different hosts
+  - For more details go to folder and refer README.md
