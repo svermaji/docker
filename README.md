@@ -18,8 +18,4 @@ This folder contains sample scripts that
   - create docker image from httpd with version 2.4
   - Dockerfile -> has commands to be executed once docker is created
     - in this case files will be copied from source to destination
-
-Commands:
- - `packer validate FILENAME`
- - `packer build FILENAME`
-
+  - For more details go to folder and refer README.md
